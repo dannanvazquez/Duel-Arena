@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
-[InitializeOnLoadAttribute]
+[InitializeOnLoad]
 public static class DefaultSceneLoader {
     static DefaultSceneLoader() {
         EditorApplication.playModeStateChanged += LoadDefaultScene;
@@ -14,9 +14,9 @@ public static class DefaultSceneLoader {
             EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
         }
 
-        if (state == PlayModeStateChange.EnteredPlayMode && EditorSceneManager.GetActiveScene().buildIndex != 0) {
-            if (EditorUtility.DisplayDialog("Load the default scene?", "Would you like to load the first scene in the project instead of the current one?", "Load first scene", "Stay on current scene")) {
-                EditorSceneManager.LoadScene(0);
+        if (state == PlayModeStateChange.EnteredPlayMode && SceneManager.GetActiveScene().buildIndex != 0) {
+            if (EditorUtility.DisplayDialog("Load the first scene?", "Would you like to load the first scene in the build order instead of the current one?", "Load first scene", "Stay on current scene")) {
+                SceneManager.LoadScene(0);
             }
         }
     }
