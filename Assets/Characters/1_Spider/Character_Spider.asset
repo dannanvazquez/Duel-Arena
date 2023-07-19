@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8ac416ef8442243b2c13bf98999438, type: 3}
+  m_Name: Character_Spider
+  m_EditorClassIdentifier: 
+  id: 1
+  displayName: Spider
+  icon: {fileID: 21300000, guid: f303f1468edf7ff4eb5222ea1a8ecbd3, type: 3}
+  introPrefab: {fileID: 461628158917564925, guid: acecbec2d0a7a2449936c1d5abb300a1,
+    type: 3}
+  gameplayPrefab: {fileID: -5450459564596024804, guid: cf7d945341f113e41a184fb041760daf,
+    type: 3}
