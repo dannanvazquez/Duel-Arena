@@ -1,6 +1,4 @@
-using Unity.Burst.CompilerServices;
 using Unity.Netcode;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -30,7 +28,7 @@ public class MoveToClickPoint : NetworkBehaviour {
     }
 
     private void LateUpdate() {
-        if (navMeshAgent.velocity != Vector3.zero ) {
+        if (GetComponent<MeleeHit>().isHitting == false && navMeshAgent.velocity != Vector3.zero) {
             transform.rotation = Quaternion.LookRotation(navMeshAgent.velocity.normalized);
         }
     }
