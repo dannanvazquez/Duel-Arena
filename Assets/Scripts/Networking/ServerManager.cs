@@ -7,6 +7,7 @@ public class ServerManager : MonoBehaviour {
     [Header("Settings")]
     [SerializeField] private string characterSelectSceneName = "CharacterSelect";
     [SerializeField] private string gameSceneName = "Game";
+    [SerializeField] private string mainMenuSceneName = "MainMenu";
 
     public static ServerManager Instance { get; private set; }
 
@@ -24,8 +25,12 @@ public class ServerManager : MonoBehaviour {
     }
     
     public void StartServer() {
-        NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
-        NetworkManager.Singleton.OnServerStarted += OnNetworkReady;
+        try {
+            NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
+            NetworkManager.Singleton.OnServerStarted += OnNetworkReady;
+        } catch {
+            Debug.Log("Callbacks already exist when starting server.");
+        }
 
         ClientData = new Dictionary<ulong, ClientData>();
 
@@ -33,15 +38,19 @@ public class ServerManager : MonoBehaviour {
     }
 
     public void StartHost() {
-        NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
-        NetworkManager.Singleton.OnServerStarted += OnNetworkReady;
+        try {
+            NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
+            NetworkManager.Singleton.OnServerStarted += OnNetworkReady;
+        } catch {
+            Debug.Log("Callbacks already exist when starting server.");
+        }
 
         ClientData = new Dictionary<ulong, ClientData>();
 
         NetworkManager.Singleton.StartHost();
     }
 
-    private void ApprovalCheck(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response) {
+    public void ApprovalCheck(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response) {
         if (ClientData.Count >= 2 || gameHasStarted) {
             response.Approved = false;
             return;
@@ -51,12 +60,12 @@ public class ServerManager : MonoBehaviour {
         response.CreatePlayerObject = false;
         response.Pending = false;
 
-        ClientData[request.ClientNetworkId] = new ClientData(request.ClientNetworkId);
+        ClientData[request.ClientNetworkId] = new ClientData(request.ClientNetworkId, ClientData.Count % 2);
 
-        Debug.Log($"Added client {request.ClientNetworkId}");
+        Debug.Log($"Added client {request.ClientNetworkId} to team {ClientData[request.ClientNetworkId].teamId}");
     }
 
-    private void OnNetworkReady() {
+    public void OnNetworkReady() {
         NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnect;
 
         NetworkManager.Singleton.SceneManager.LoadScene(characterSelectSceneName, LoadSceneMode.Single);
@@ -65,6 +74,8 @@ public class ServerManager : MonoBehaviour {
     private void OnClientDisconnect(ulong clientId) {
         if (ClientData.ContainsKey(clientId) && ClientData.Remove(clientId)) {
             Debug.Log($"Removed client {clientId}");
+            //SceneManager.LoadScene(mainMenuSceneName);
+            //Destroy(gameObject);
         }
     }
 

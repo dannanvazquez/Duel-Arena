@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8615189285628072994}
   - component: {fileID: 8379396195192665787}
   - component: {fileID: -7793317469970531547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BaseCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 154337200162277268}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.01
   m_Speed: 3.5
   m_Acceleration: 100
   avoidancePriority: 50
@@ -100,5 +100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   hitRadius: 1
+  hitForce: 5
   hitAnimationTime: 0.5
-  hitCooldown: 1
+  hitCooldown: 0
