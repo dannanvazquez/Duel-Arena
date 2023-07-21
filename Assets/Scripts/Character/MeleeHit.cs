@@ -6,6 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class MeleeHit : NetworkBehaviour {
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject radiusIndicator;
 
     [SerializeField] private float hitRadius = 1f;
     [SerializeField] private float hitForce = 5f;
@@ -20,6 +21,8 @@ public class MeleeHit : NetworkBehaviour {
     private void Awake() {
         isHitting = false;
         canHit = true;
+
+        radiusIndicator.transform.localScale = new Vector3(hitRadius, hitRadius, 1f);
     }
 
     private void Start() {
@@ -44,12 +47,13 @@ public class MeleeHit : NetworkBehaviour {
         HitHittableColliders(dir);
     }
 
+
     [ClientRpc]
     private void HitDirectionClientRpc(Vector3 dir) {
         StartCoroutine(HitTiming());
 
         transform.rotation = Quaternion.LookRotation(dir);
-        //transform.LookAt(new Vector3(dir.x, transform.position.y, dir.z));
+
         if (animator) {
             animator.SetTrigger("MeleeHit");
         }
@@ -59,9 +63,17 @@ public class MeleeHit : NetworkBehaviour {
         isHitting = true;
         canHit = false;
 
+        if (IsLocalPlayer) {
+            radiusIndicator.GetComponent<SpriteRenderer>().enabled = true;
+        }
+
         yield return new WaitForSeconds(hitAnimationTime);
 
         isHitting = false;
+
+        if (IsLocalPlayer) {
+            radiusIndicator.GetComponent<SpriteRenderer>().enabled = false;
+        }
 
         yield return new WaitForSeconds(hitCooldown);
 

@@ -14,6 +14,8 @@ public class CharacterSelectDisplay : NetworkBehaviour {
     [SerializeField] private Transform introSpawnPoint;
     [SerializeField] private Button lockInButton;
 
+    [SerializeField] private bool isDraftPick;
+
     private GameObject introInstance;
     private List<CharacterSelectButton> characterSelectButtons = new();
 
@@ -78,7 +80,7 @@ public class CharacterSelectDisplay : NetworkBehaviour {
 
             if (player.CharacterId == character.Id) return;
 
-            if (IsCharacterTaken(character.Id)) return;
+            if (isDraftPick && IsCharacterTaken(character.Id)) return;
         }
 
         characterNameText.text = character.DisplayName;
@@ -118,7 +120,7 @@ public class CharacterSelectDisplay : NetworkBehaviour {
 
             if (!characterDatabase.IsValidCharacterId(players[i].CharacterId)) return;
 
-            if (IsCharacterTaken(players[i].CharacterId, true)) return;
+            if (isDraftPick && IsCharacterTaken(players[i].CharacterId, true)) return;
 
             players[i] = new CharacterSelectState(players[i].ClientId, players[i].CharacterId, true);
         }

@@ -108,6 +108,16 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 2944170123712642175}
+    - target: {fileID: -7793317469970531547, guid: a835beaffe7ea634889e99ece7437a57,
+        type: 3}
+      propertyPath: hitForce
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -7793317469970531547, guid: a835beaffe7ea634889e99ece7437a57,
+        type: 3}
+      propertyPath: hitRadius
+      value: 1.15
+      objectReference: {fileID: 0}
     - target: {fileID: 154337200162277268, guid: a835beaffe7ea634889e99ece7437a57,
         type: 3}
       propertyPath: m_Name
@@ -167,6 +177,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007734896822057874, guid: a835beaffe7ea634889e99ece7437a57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967894068224421081, guid: a835beaffe7ea634889e99ece7437a57,
+        type: 3}
+      propertyPath: m_Speed
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8379396195192665787, guid: a835beaffe7ea634889e99ece7437a57,
         type: 3}
