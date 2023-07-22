@@ -10,7 +10,7 @@ public class CharacterSpawner : NetworkBehaviour {
     public override void OnNetworkSpawn() {
         if (!IsServer) return;
 
-        foreach (var client in ServerManager.Instance.ClientData) {
+        foreach (var client in HostManager.Instance.ClientData) {
             var character = characterDatabase.GetCharacterById(client.Value.characterId);
             if (character != null) {
                 var spawnTransform = spawnTransforms[client.Value.teamId];
@@ -21,7 +21,7 @@ public class CharacterSpawner : NetworkBehaviour {
     }
 
     public void RespawnPlayers() {
-        foreach (var client in ServerManager.Instance.ClientData) {
+        foreach (var client in HostManager.Instance.ClientData) {
             var currentPlayerObject = NetworkManager.Singleton.ConnectedClients[client.Value.clientId].PlayerObject;
             currentPlayerObject.Despawn(true);
 

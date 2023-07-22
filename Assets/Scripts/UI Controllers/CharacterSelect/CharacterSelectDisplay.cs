@@ -12,6 +12,7 @@ public class CharacterSelectDisplay : NetworkBehaviour {
     [SerializeField] private GameObject characterInfoPanel;
     [SerializeField] private TMP_Text characterNameText;
     [SerializeField] private Transform introSpawnPoint;
+    [SerializeField] private TMP_Text joinCodeText;
     [SerializeField] private Button lockInButton;
 
     [SerializeField] private bool isDraftPick;
@@ -45,6 +46,10 @@ public class CharacterSelectDisplay : NetworkBehaviour {
             foreach (NetworkClient client in NetworkManager.Singleton.ConnectedClientsList) {
                 HandleClientConnected(client.ClientId);
             }
+        }
+
+        if (IsHost) {
+            joinCodeText.text = $"Lobby Code: {HostManager.Instance.JoinCode}";
         }
     }
 
@@ -130,10 +135,10 @@ public class CharacterSelectDisplay : NetworkBehaviour {
         }
 
         foreach (var player in players) {
-            ServerManager.Instance.SetCharacter(player.ClientId, player.CharacterId);
+            HostManager.Instance.SetCharacter(player.ClientId, player.CharacterId);
         }
 
-        ServerManager.Instance.StartGame();
+        HostManager.Instance.StartGame();
     }
 
     private void HandlePlayersStateChanged(NetworkListEvent<CharacterSelectState> changeEvent) {
