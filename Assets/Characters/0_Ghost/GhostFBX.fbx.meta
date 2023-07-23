@@ -3,7 +3,12 @@ guid: 6fa27de332ed27f4cba47f1d1fc32ebd
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ghost_texture.png
+    second: {fileID: 2100000, guid: 72f0575506613f14e90c3cf55069c988, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

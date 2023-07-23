@@ -17,7 +17,9 @@ public class MoveToClickPoint : NetworkBehaviour {
         if (IsLocalPlayer) {
             if (Input.GetMouseButton(1)) {
                 if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, 100)) {
-                    SetDestinationServerRpc(hit.point);
+                    if (NavMesh.SamplePosition(hit.point, out NavMeshHit navMeshHit, 5.0f, NavMesh.AllAreas)) {
+                        SetDestinationServerRpc(navMeshHit.position);
+                    }
                 }
             }
         }

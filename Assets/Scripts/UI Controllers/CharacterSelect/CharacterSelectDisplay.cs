@@ -144,6 +144,7 @@ public class CharacterSelectDisplay : NetworkBehaviour {
     private void HandlePlayersStateChanged(NetworkListEvent<CharacterSelectState> changeEvent) {
         for (int i = 0; i < playerCards.Length; i++) {
             if (players.Count > i) {
+                playerCards[i].gameObject.SetActive(true);
                 playerCards[i].UpdateDisplay(players[i]);
             } else {
                 playerCards[i].DisableDisplay();

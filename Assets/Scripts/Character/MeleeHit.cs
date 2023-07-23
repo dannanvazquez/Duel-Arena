@@ -32,7 +32,7 @@ public class MeleeHit : NetworkBehaviour {
     private void Update() {
         if (!IsLocalPlayer) return;
 
-        if (canHit && (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.A))) {
+        if (canHit && (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Q))) {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, 100)) {
                 Vector3 direction = hit.point - transform.position;
                 direction.y = transform.position.y;
