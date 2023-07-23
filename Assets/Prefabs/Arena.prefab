@@ -1,5 +1,626 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &364435236570250865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.71
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99877614
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.049459875
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 5.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &750311643467798398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.908443
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.502464
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99877614
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.049459875
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 5.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &1629207539279917649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9995778
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.029055594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &2534157624018622543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.908087
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.738554
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99877614
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.049459875
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 5.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &2835144273719361101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.2488956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.916204
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99761254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06906008
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -7.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &2981353417322386859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.556224
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.626118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9995778
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.029055594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &3158697946630497444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.8375978
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.385925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &3655748830016708306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.442919
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.930236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9973209
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.073151186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &3676123932985234098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4722178
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8209496
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9973209
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.073151186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
 --- !u!1001 &4597410410930149783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -380,6 +1001,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.25, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &4055475059292241532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ec80c3762eb9238479384d2eca0b15c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4597410410930149783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4351073437994439457 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 265525822778460854, guid: ec80c3762eb9238479384d2eca0b15c5,
@@ -684,3 +1311,969 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.875, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
+--- !u!1001 &4883112715993990799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9976099
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.884588
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9995778
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.029055594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &5719038773529182453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &5933793441204830455
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.1011567
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.941838
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &6090937615923287540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.95842
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.7588425
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9973209
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.073151186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &6103490209406537766
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.180904
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.283855
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9973209
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.073151186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &6332588581300432429
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.943922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.776411
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9995778
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.029055594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &6815133241109166080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.68
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9973209
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.073151186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &6963744049290192576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.781597
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.797825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99761254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06906008
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -7.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &7390209417089258386
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.72646093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.409515
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &7639963335190801860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &7873775191810057404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5695362
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.365027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &8117961561462077449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.6808548
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.686554
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &8194215104782295382
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.24033
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.448112
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}
+--- !u!1001 &8428838999618694854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4055475059292241532}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.899794
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.992218
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99984777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.01745245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24e84af7d22f0364dbe6d50d9daa2088,
+        type: 3}
+      propertyPath: m_Name
+      value: TombstoneFBX (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24e84af7d22f0364dbe6d50d9daa2088, type: 3}

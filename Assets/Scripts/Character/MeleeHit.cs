@@ -5,9 +5,12 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class MeleeHit : NetworkBehaviour {
+    [Header("References")]
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject radiusIndicator;
+    [SerializeField] private AudioClip[] kickBallClips;
 
+    [Header("Settings")]
     [SerializeField] private float hitRadius = 1f;
     [SerializeField] private float hitForce = 5f;
     [SerializeField] private float hitAnimationTime = 0.5f;
@@ -86,7 +89,13 @@ public class MeleeHit : NetworkBehaviour {
         foreach (var hittableCollider in hittableColliders) {
             if (hittableCollider.CompareTag("Ball")) {
                 hittableCollider.GetComponent<Rigidbody>().velocity = dir * hitForce;
+                PlayKickBallAudioClientRpc(Random.Range(0, kickBallClips.Length));
             }
         }
+    }
+
+    [ClientRpc]
+    private void PlayKickBallAudioClientRpc(int index) {
+        AudioSource.PlayClipAtPoint(kickBallClips[index], Camera.main.transform.position, 1f);
     }
 }

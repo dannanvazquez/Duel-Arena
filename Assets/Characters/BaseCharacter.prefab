@@ -101,6 +101,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   radiusIndicator: {fileID: 4329302712324238543}
+  kickBallClips:
+  - {fileID: 8300000, guid: fb28b36171510474cb31275f6c9c743c, type: 3}
+  - {fileID: 8300000, guid: a9a7504c846f6b74f8e20d5f77e5b4ed, type: 3}
+  - {fileID: 8300000, guid: 10db33787f07e8d4e8b79fdc4ef61a8f, type: 3}
+  - {fileID: 8300000, guid: 3d266e59bd509b349b2e19553e7574f6, type: 3}
+  - {fileID: 8300000, guid: 9489d2c1670762b49864441bd61956c7, type: 3}
+  - {fileID: 8300000, guid: f8be661708369fc4cb6cca90afde6d0a, type: 3}
+  - {fileID: 8300000, guid: 8e231a7b701492444a246e5d856f191a, type: 3}
+  - {fileID: 8300000, guid: cf882c72b008204469be124c179e0257, type: 3}
+  - {fileID: 8300000, guid: 1a71a3364ef03084cb7000b3f0774423, type: 3}
+  - {fileID: 8300000, guid: 60b1c70bb87112a44b4cb0d02b60a27b, type: 3}
+  - {fileID: 8300000, guid: c489a1fe5d14334468fcdd893e2c90f5, type: 3}
+  - {fileID: 8300000, guid: 02c3ec769e713234780761ae9a5ef215, type: 3}
   hitRadius: 1
   hitForce: 5
   hitAnimationTime: 0.5

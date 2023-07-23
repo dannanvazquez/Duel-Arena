@@ -15,8 +15,6 @@ public class CharacterSelectDisplay : NetworkBehaviour {
     [SerializeField] private TMP_Text joinCodeText;
     [SerializeField] private Button lockInButton;
 
-    [SerializeField] private bool isDraftPick;
-
     private GameObject introInstance;
     private List<CharacterSelectButton> characterSelectButtons = new();
 
@@ -85,7 +83,7 @@ public class CharacterSelectDisplay : NetworkBehaviour {
 
             if (player.CharacterId == character.Id) return;
 
-            if (isDraftPick && IsCharacterTaken(character.Id)) return;
+            if (IsCharacterTaken(character.Id)) return;
         }
 
         characterNameText.text = character.DisplayName;
@@ -125,7 +123,7 @@ public class CharacterSelectDisplay : NetworkBehaviour {
 
             if (!characterDatabase.IsValidCharacterId(players[i].CharacterId)) return;
 
-            if (isDraftPick && IsCharacterTaken(players[i].CharacterId, true)) return;
+            if (IsCharacterTaken(players[i].CharacterId, true)) return;
 
             players[i] = new CharacterSelectState(players[i].ClientId, players[i].CharacterId, true);
         }
@@ -177,13 +175,13 @@ public class CharacterSelectDisplay : NetworkBehaviour {
         }
     }
 
-    private bool IsCharacterTaken(int charachterId, bool checkAll = false) {
+    private bool IsCharacterTaken(int characterId, bool checkAll = false) {
         foreach (var player in players) {
             if (!checkAll) {
                 if (player.ClientId == NetworkManager.Singleton.LocalClientId) continue;
             }
 
-            if (player.IsLockedIn && player.CharacterId == charachterId) return true;
+            if (player.IsLockedIn && player.CharacterId == characterId) return true;
         }
 
         return false;
