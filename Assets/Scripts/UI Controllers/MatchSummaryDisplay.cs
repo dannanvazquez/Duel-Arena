@@ -18,7 +18,11 @@ public class MatchSummaryDisplay : NetworkBehaviour {
     }
 
     public void Disconnect() {
-        NetworkManager.Singleton.Shutdown();
-        Application.Quit();
+        BackToLobbyServerRpc();
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void BackToLobbyServerRpc() {
+        NetworkManager.Singleton.SceneManager.LoadScene("CharacterSelect", LoadSceneMode.Single);
     }
 }

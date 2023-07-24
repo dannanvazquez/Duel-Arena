@@ -24,6 +24,12 @@ public class GameManager : NetworkBehaviour {
         StartCoroutine(GameCountdown(countdown));
     }
 
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            EndGameServerRpc();
+        }
+    }
+
     public void ScoreGoal(int teamId) {
         if (teamId == 0) {
             teamLeft++;
@@ -56,9 +62,21 @@ public class GameManager : NetworkBehaviour {
         EndGame();
     }
 
+    [ServerRpc(RequireOwnership = false)]
+    private void EndGameServerRpc() {
+        if (ball != null) {
+            EndGame();
+        }
+    }
+
     private void EndGame() {
         gameInfoDisplay.UpdateCountdownDisplayClientRpc(0);
         ball.GetComponent<NetworkObject>().Despawn(true);
         matchSummaryDisplay.ToggleCanvasClientRpc(true);
+
+        foreach (var client in HostManager.Instance.ClientData) {
+            var currentPlayerObject = NetworkManager.Singleton.ConnectedClients[client.Value.clientId].PlayerObject;
+            currentPlayerObject.Despawn(true);
+        }
     }
 }
